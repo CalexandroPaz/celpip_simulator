@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:math';
 import 'package:flutter/services.dart';
 import 'package:celpip_simulator/features/exam_session/data/models/question_model.dart';
 import 'package:celpip_simulator/features/exam_session/domain/entities/question.dart';
@@ -40,8 +41,21 @@ final class ExamLocalDataSourceImpl implements ExamLocalDataSource {
     ) as Map<String, dynamic>;
 
     final questions = sectionData['questions'] as List<dynamic>;
-    return questions
+    final parsed = questions
         .map((q) => QuestionModel.fromJson(q as Map<String, dynamic>))
         .toList();
+    return _shuffleByPart(parsed);
+  }
+
+  /// Agrupa las preguntas por número de part, mezcla el orden de los grupos
+  /// y las aplana de vuelta. Así los audios y pasajes de lectura se mantienen
+  /// intactos pero el orden de las partes varía en cada intento.
+  List<Question> _shuffleByPart(List<Question> questions) {
+    final groups = <int, List<Question>>{};
+    for (final q in questions) {
+      groups.putIfAbsent(q.part, () => []).add(q);
+    }
+    final partNumbers = groups.keys.toList()..shuffle(Random());
+    return [for (final part in partNumbers) ...groups[part]!];
   }
 }
