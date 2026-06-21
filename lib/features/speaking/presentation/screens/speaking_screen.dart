@@ -8,6 +8,7 @@ import 'package:celpip_simulator/features/speaking/presentation/providers/speaki
 import 'package:celpip_simulator/features/speaking/presentation/widgets/countdown_widget.dart';
 import 'package:celpip_simulator/features/speaking/presentation/widgets/permission_widget.dart';
 import 'package:celpip_simulator/features/speaking/presentation/widgets/recording_indicator_widget.dart';
+import 'package:celpip_simulator/core/widgets/exam_exit_button.dart';
 
 /// Módulo Speaking — Fase 4.
 ///
@@ -51,7 +52,7 @@ class _SpeakingScreenState extends ConsumerState<SpeakingScreen> {
       appBar: AppBar(
         title: const Text('Speaking'),
         automaticallyImplyLeading: false,
-        actions: [_SectionTimer(remaining: timer.sectionRemaining)],
+        actions: [_SectionTimer(remaining: timer.sectionRemaining), const ExamExitButton()],
       ),
       body: questionsAsync.when(
         loading: () => const Center(child: CircularProgressIndicator()),

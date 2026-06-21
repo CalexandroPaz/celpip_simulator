@@ -6,6 +6,7 @@ import 'package:celpip_simulator/features/exam_session/domain/entities/section.d
 import 'package:celpip_simulator/features/exam_session/presentation/providers/exam_session_provider.dart';
 import 'package:celpip_simulator/features/writing/presentation/providers/writing_provider.dart';
 import 'package:celpip_simulator/features/writing/presentation/widgets/word_count_bar.dart';
+import 'package:celpip_simulator/core/widgets/exam_exit_button.dart';
 
 /// Módulo Writing — Fase 3 completa.
 ///
@@ -72,7 +73,7 @@ class _WritingScreenState extends ConsumerState<WritingScreen> {
       appBar: AppBar(
         title: const Text('Writing'),
         automaticallyImplyLeading: false,
-        actions: [_SectionTimer(remaining: timer.sectionRemaining)],
+        actions: [_SectionTimer(remaining: timer.sectionRemaining), const ExamExitButton()],
       ),
       body: questionsAsync.when(
         loading: () => const Center(child: CircularProgressIndicator()),

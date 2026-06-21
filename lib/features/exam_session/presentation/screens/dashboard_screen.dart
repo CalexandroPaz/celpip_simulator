@@ -5,6 +5,7 @@ import 'package:celpip_simulator/core/constants/exam_constants.dart';
 import 'package:celpip_simulator/features/exam_session/domain/entities/exam_session.dart';
 import 'package:celpip_simulator/features/exam_session/domain/entities/section.dart';
 import 'package:celpip_simulator/features/exam_session/presentation/providers/exam_session_provider.dart';
+import 'package:celpip_simulator/core/widgets/exam_exit_button.dart';
 
 /// Pantalla principal del examen — muestra progresión, puntajes y controla
 /// el inicio del flujo. Es el único punto de entrada al examen.
@@ -38,8 +39,10 @@ class DashboardScreen extends ConsumerWidget {
         title: const Text('CELPIP Advanced Simulator'),
         actions: [
           if (session.phase != ExamPhase.notStarted &&
-              session.phase != ExamPhase.finished)
+              session.phase != ExamPhase.finished) ...[
             const _GlobalTimerChip(),
+            const ExamExitButton(),
+          ],
         ],
       ),
       body: switch (session.phase) {

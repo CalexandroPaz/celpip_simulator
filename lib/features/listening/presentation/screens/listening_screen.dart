@@ -7,6 +7,7 @@ import 'package:celpip_simulator/features/exam_session/presentation/providers/ex
 import 'package:celpip_simulator/features/listening/presentation/providers/listening_provider.dart';
 import 'package:celpip_simulator/features/listening/presentation/widgets/audio_indicator_widget.dart';
 import 'package:celpip_simulator/core/widgets/multiple_choice_question_widget.dart';
+import 'package:celpip_simulator/core/widgets/exam_exit_button.dart';
 
 /// Módulo Listening — Fase 2 completa.
 ///
@@ -51,7 +52,7 @@ class _ListeningScreenState extends ConsumerState<ListeningScreen> {
       appBar: AppBar(
         title: const Text('Listening'),
         automaticallyImplyLeading: false,
-        actions: [_SectionTimerDisplay(remaining: timer.sectionRemaining)],
+        actions: [_SectionTimerDisplay(remaining: timer.sectionRemaining), const ExamExitButton()],
       ),
       body: questionsAsync.when(
         loading: () => const Center(child: CircularProgressIndicator()),

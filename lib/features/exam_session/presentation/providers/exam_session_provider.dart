@@ -172,6 +172,12 @@ class ExamSessionNotifier extends Notifier<ExamSession> {
     state = _submitAnswer(current: state, answer: answer);
   }
 
+  /// Cancela el examen en curso y vuelve al estado inicial.
+  Future<void> cancelExam() async {
+    await _timer.stop();
+    state = ExamSession(examId: '', phase: ExamPhase.notStarted, activeSectionIndex: 0);
+  }
+
   // ─── Llamado por ExamTimerService cuando el tiempo de sección expira ────
 
   void _onSectionTimeExpired() {
