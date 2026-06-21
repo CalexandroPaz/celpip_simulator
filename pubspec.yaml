@@ -1,0 +1,47 @@
+name: celpip_simulator
+description: CELPIP-General Advanced Exam Simulator (Bands 9–12).
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management — Riverpod 2.x (Notifier / StateNotifier)
+  flutter_riverpod: ^2.5.1
+
+  # Navigation
+  go_router: ^14.2.0
+
+  # HTTP client — integración FastAPI (Fase 5)
+  http: ^1.2.1
+
+  # Audio playback (Listening module)
+  just_audio: ^0.9.38
+
+  # Rutas de archivos temporales para guardar grabaciones de Speaking
+  path_provider: ^2.1.3
+
+  # Permission handling (microphone for Speaking module)
+  permission_handler: ^11.3.1
+
+  # Microphone recording (Speaking module)
+  record: ^7.1.0
+
+  # Local persistence (exam deadlines, session state)
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/audio/
+    - assets/images/

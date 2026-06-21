@@ -1,0 +1,417 @@
+{
+  "examId": "celpip-adv-001",
+  "title": "CELPIP-General Practice Exam — Advanced",
+  "level": "Advanced (CELPIP 9-12)",
+  "version": "1.0",
+  "notes": "Original practice content written in CELPIP-General style for development/seed purposes. Audio files referenced by 'audioAsset' must be added under assets/audio/. While real audio is unavailable, 'audioTranscript' can drive a text-to-speech fallback or on-screen mock.",
+  "sections": [
+    {
+      "id": "listening",
+      "title": "Listening",
+      "durationMinutes": 47,
+      "instructions": "You will hear each recording ONCE. You cannot pause, rewind, or replay. Answer the questions as you listen.",
+      "questions": [
+        {
+          "id": "L1-Q1",
+          "section": "listening",
+          "type": "multipleChoice",
+          "part": 1,
+          "partTitle": "Listening to Problem Solving",
+          "audioAsset": "assets/audio/listening_part1.mp3",
+          "audioTranscript": "Woman: Hi, I'm calling about the patio set I ordered last week. The chairs arrived, but the table is missing two of its legs and the glass top has a long crack across it. Man: I'm very sorry to hear that. Let me pull up your order. Would you prefer a full replacement of the table, or a refund for that portion of the order? Woman: Honestly, I'd rather just get a working table. We have guests this weekend, so the timing is tight. Man: Understood. I can ship a replacement table today with overnight delivery at no charge, and I'll add a fifteen percent credit for the inconvenience. Woman: That works, as long as it actually arrives before Saturday. Man: It will. I'll email you the new tracking number within the hour.",
+          "prompt": "What is the woman's main concern about resolving the problem?",
+          "options": [
+            "Getting the largest possible refund",
+            "Receiving a usable table before the weekend",
+            "Returning the chairs that already arrived",
+            "Speaking with a different representative"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "id": "L1-Q2",
+          "section": "listening",
+          "type": "multipleChoice",
+          "part": 1,
+          "partTitle": "Listening to Problem Solving",
+          "audioAsset": "assets/audio/listening_part1.mp3",
+          "prompt": "What does the man offer in addition to the replacement?",
+          "options": [
+            "A full refund and free chairs",
+            "A discount on a future order",
+            "Overnight shipping and a fifteen percent credit",
+            "An extended warranty on the patio set"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "id": "L1-Q3",
+          "section": "listening",
+          "type": "multipleChoice",
+          "part": 1,
+          "partTitle": "Listening to Problem Solving",
+          "audioAsset": "assets/audio/listening_part1.mp3",
+          "prompt": "What will the man do within the hour?",
+          "options": [
+            "Call the woman back to confirm",
+            "Send a new tracking number by email",
+            "Process a partial refund",
+            "Schedule a technician visit"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "id": "L4-Q1",
+          "section": "listening",
+          "type": "multipleChoice",
+          "part": 4,
+          "partTitle": "Listening to a News Item",
+          "audioAsset": "assets/audio/listening_part4.mp3",
+          "audioTranscript": "City officials announced today that the downtown transit corridor will undergo a two-year redevelopment beginning this autumn. The plan replaces the aging bus loop with a dedicated light-rail line intended to cut average commute times by roughly twenty percent. Critics argue the projected budget of four hundred million dollars underestimates the disruption to local businesses during construction. The transit authority counters that temporary relief grants and a phased schedule will limit closures to one block at a time. A public consultation period opens next month, after which the final design will be submitted for council approval.",
+          "prompt": "What is the primary purpose of the redevelopment project?",
+          "options": [
+            "To expand parking near the downtown core",
+            "To replace the bus loop with a light-rail line",
+            "To reduce the city's overall transit budget",
+            "To relocate local businesses out of downtown"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "id": "L4-Q2",
+          "section": "listening",
+          "type": "multipleChoice",
+          "part": 4,
+          "partTitle": "Listening to a News Item",
+          "audioAsset": "assets/audio/listening_part4.mp3",
+          "prompt": "What is the main objection raised by critics?",
+          "options": [
+            "The light rail will be too slow",
+            "The budget underestimates disruption to businesses",
+            "The project will not reduce commute times",
+            "Public consultation was skipped entirely"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "id": "L4-Q3",
+          "section": "listening",
+          "type": "multipleChoice",
+          "part": 4,
+          "partTitle": "Listening to a News Item",
+          "audioAsset": "assets/audio/listening_part4.mp3",
+          "prompt": "According to the transit authority, how will disruption be limited?",
+          "options": [
+            "By closing the entire corridor at once to finish faster",
+            "By cancelling the project if costs rise",
+            "By using relief grants and closing one block at a time",
+            "By postponing construction until next year"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "id": "L6-Q1",
+          "section": "listening",
+          "type": "multipleChoice",
+          "part": 6,
+          "partTitle": "Listening to Viewpoints",
+          "audioAsset": "assets/audio/listening_part6.mp3",
+          "audioTranscript": "Some economists maintain that remote work permanently reshapes urban centres. They point to declining office occupancy and the migration of skilled workers toward smaller, more affordable cities. Others remain skeptical, noting that collaboration and mentorship suffer without shared physical space, and that many firms are quietly reintroducing in-person requirements. A more measured view suggests the outcome is hybrid by necessity: companies will retain smaller offices as hubs for periodic gathering rather than daily attendance, trading square footage for flexibility while preserving the social fabric that fully remote arrangements tend to erode.",
+          "prompt": "What does the speaker present as the 'more measured view'?",
+          "options": [
+            "Remote work will completely replace offices",
+            "Offices will return to full daily attendance",
+            "A hybrid model with smaller offices used as hubs",
+            "Skilled workers will return to large cities"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "id": "L6-Q2",
+          "section": "listening",
+          "type": "multipleChoice",
+          "part": 6,
+          "partTitle": "Listening to Viewpoints",
+          "audioAsset": "assets/audio/listening_part6.mp3",
+          "prompt": "Why are some observers skeptical of fully remote work?",
+          "options": [
+            "It increases office occupancy",
+            "It harms collaboration and mentorship",
+            "It makes cities more affordable",
+            "It eliminates the need for hybrid schedules"
+          ],
+          "correctAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Reading",
+      "durationMinutes": 55,
+      "instructions": "Read each passage and answer the questions. You may go back and review within this section.",
+      "questions": [
+        {
+          "id": "R1-Q1",
+          "section": "reading",
+          "type": "multipleChoice",
+          "part": 1,
+          "partTitle": "Reading Correspondence",
+          "passage": "Dear Mr. Alvarado,\n\nThank you for your application for the Site Coordinator position. After reviewing your portfolio, the committee was impressed by your experience managing multi-trade schedules. We would like to invite you to a second-round interview, which will focus on a practical scheduling scenario rather than general questions. Please bring a recent project timeline you have personally prepared. The interview is set for Thursday at 10:00 a.m. at our Surrey office. If this time does not suit you, reply by Tuesday and we will arrange an alternative.\n\nWarm regards,\nDana Whitford, Hiring Lead",
+          "prompt": "What is the main purpose of this email?",
+          "options": [
+            "To reject the applicant's portfolio",
+            "To invite the applicant to a second interview",
+            "To request a new job application",
+            "To confirm a salary offer"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "id": "R1-Q2",
+          "section": "reading",
+          "type": "multipleChoice",
+          "part": 1,
+          "partTitle": "Reading Correspondence",
+          "passage": "(Refer to the email from Dana Whitford above.)",
+          "prompt": "What is the applicant asked to bring?",
+          "options": [
+            "A list of references",
+            "A signed contract",
+            "A project timeline he personally prepared",
+            "A copy of his diploma"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "id": "R1-Q3",
+          "section": "reading",
+          "type": "multipleChoice",
+          "part": 1,
+          "partTitle": "Reading Correspondence",
+          "passage": "(Refer to the email from Dana Whitford above.)",
+          "prompt": "What should the applicant do if the proposed time does not work?",
+          "options": [
+            "Decline the position",
+            "Arrive at a different office",
+            "Reply by Tuesday to arrange another time",
+            "Wait for a phone call"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "id": "R3-Q1",
+          "section": "reading",
+          "type": "multipleChoice",
+          "part": 3,
+          "partTitle": "Reading for Information",
+          "passage": "Predictive maintenance differs from preventive maintenance in a crucial way. Preventive maintenance relies on fixed schedules: a part is serviced or replaced after a set interval, regardless of its actual condition. Predictive maintenance, by contrast, uses condition-monitoring data—vibration analysis, thermography, and ultrasound, among others—to estimate the remaining useful life of equipment and intervene only when measurable indicators suggest impending failure. This approach can reduce unnecessary part replacement and minimize unplanned downtime, but it requires upfront investment in sensors, trained analysts, and data infrastructure. For facilities with critical, high-cost assets, the return on that investment is typically realized within the first two years of deployment.",
+          "prompt": "How does predictive maintenance mainly differ from preventive maintenance?",
+          "options": [
+            "It replaces parts on a fixed schedule",
+            "It intervenes based on condition-monitoring data",
+            "It eliminates the need for any sensors",
+            "It requires no upfront investment"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "id": "R3-Q2",
+          "section": "reading",
+          "type": "multipleChoice",
+          "part": 3,
+          "partTitle": "Reading for Information",
+          "passage": "(Refer to the passage on predictive maintenance above.)",
+          "prompt": "Which is named as a condition-monitoring technique?",
+          "options": [
+            "Fixed-interval scheduling",
+            "Thermography",
+            "Annual inspection",
+            "Manual inventory counting"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "id": "R3-Q3",
+          "section": "reading",
+          "type": "multipleChoice",
+          "part": 3,
+          "partTitle": "Reading for Information",
+          "passage": "(Refer to the passage on predictive maintenance above.)",
+          "prompt": "For which facilities is the investment said to pay off soonest?",
+          "options": [
+            "Those with low-cost, non-critical assets",
+            "Those that avoid using sensors",
+            "Those with critical, high-cost assets",
+            "Those that rely only on fixed schedules"
+          ],
+          "correctAnswerIndex": 2
+        },
+        {
+          "id": "R4-Q1",
+          "section": "reading",
+          "type": "multipleChoice",
+          "part": 4,
+          "partTitle": "Reading for Viewpoints",
+          "passage": "Opinion A: Universities should prioritize practical, job-ready skills, since graduates face a competitive labour market and employers increasingly value demonstrable competencies over abstract theory.\n\nOpinion B: Universities exist to cultivate critical thinking and intellectual breadth; narrowing curricula to immediate employability produces narrow specialists who struggle to adapt as industries evolve.",
+          "prompt": "What is the central tension between the two opinions?",
+          "options": [
+            "Whether universities should charge tuition",
+            "Whether to emphasize job-ready skills or intellectual breadth",
+            "Whether employers should fund universities",
+            "Whether students should attend university at all"
+          ],
+          "correctAnswerIndex": 1
+        },
+        {
+          "id": "R4-Q2",
+          "section": "reading",
+          "type": "multipleChoice",
+          "part": 4,
+          "partTitle": "Reading for Viewpoints",
+          "passage": "(Refer to Opinions A and B above.)",
+          "prompt": "What concern does Opinion B raise about prioritizing employability?",
+          "options": [
+            "It makes tuition unaffordable",
+            "It produces specialists who may struggle to adapt",
+            "It reduces the number of graduates",
+            "It discourages employers from hiring"
+          ],
+          "correctAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "title": "Writing",
+      "durationMinutes": 53,
+      "instructions": "Complete both tasks. Aim for 150-200 words each. Manage your time across the two tasks.",
+      "questions": [
+        {
+          "id": "W1",
+          "section": "writing",
+          "type": "writingEmail",
+          "part": 1,
+          "partTitle": "Writing an Email",
+          "timeMinutes": 27,
+          "minWords": 150,
+          "maxWords": 200,
+          "prompt": "You recently completed a renovation project for a client, but the final invoice was paid 45 days late, which affected your cash flow. Write an email to the client's accounts manager. In your email:\n\n- explain the impact the late payment had on your business;\n- request that future invoices be paid within the agreed 30-day term;\n- propose a practical solution to avoid delays going forward.",
+          "rubricHints": [
+            "Clear purpose and appropriate professional tone",
+            "All three content points addressed",
+            "Logical organization with a clear opening and closing",
+            "Range and accuracy of vocabulary and grammar"
+          ]
+        },
+        {
+          "id": "W2",
+          "section": "writing",
+          "type": "writingSurvey",
+          "part": 2,
+          "partTitle": "Responding to Survey Questions",
+          "timeMinutes": 26,
+          "minWords": 150,
+          "maxWords": 200,
+          "prompt": "Your city is considering how to spend a limited infrastructure budget. A survey asks residents to choose ONE of the following options and explain their choice:\n\nOption A: Invest in expanding public transit (more bus routes and a new light-rail line).\n\nOption B: Invest in road improvements (repaving, new lanes, and better intersections).\n\nChoose ONE option. Explain your choice with specific reasons and examples. State clearly why you did not choose the other option.",
+          "rubricHints": [
+            "A clear position stated and maintained",
+            "Specific, developed reasons and examples",
+            "Acknowledgement of why the other option was rejected",
+            "Coherence, cohesion, and language accuracy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "speaking",
+      "title": "Speaking",
+      "durationMinutes": 20,
+      "instructions": "You will have preparation time, then recording will begin automatically. Speak until the time runs out. You cannot re-record.",
+      "questions": [
+        {
+          "id": "S1",
+          "section": "speaking",
+          "type": "speakingTask",
+          "part": 1,
+          "partTitle": "Giving Advice",
+          "prepSeconds": 30,
+          "responseSeconds": 90,
+          "prompt": "A friend has been offered a two-year job contract in another country at a good salary but is unsure whether to accept. Give your friend advice about what to consider before deciding."
+        },
+        {
+          "id": "S2",
+          "section": "speaking",
+          "type": "speakingTask",
+          "part": 2,
+          "partTitle": "Talking about a Personal Experience",
+          "prepSeconds": 30,
+          "responseSeconds": 60,
+          "prompt": "Describe a time when you had to solve a difficult problem at work or school. What was the situation, and how did you handle it?"
+        },
+        {
+          "id": "S3",
+          "section": "speaking",
+          "type": "speakingTask",
+          "part": 3,
+          "partTitle": "Describing a Scene",
+          "prepSeconds": 30,
+          "responseSeconds": 60,
+          "imageAsset": "assets/images/speaking_scene.png",
+          "prompt": "Look at the picture. Describe the scene in as much detail as you can for someone who cannot see it. Mention the people, their actions, and the setting."
+        },
+        {
+          "id": "S4",
+          "section": "speaking",
+          "type": "speakingTask",
+          "part": 4,
+          "partTitle": "Making Predictions",
+          "prepSeconds": 30,
+          "responseSeconds": 60,
+          "imageAsset": "assets/images/speaking_scene.png",
+          "prompt": "Look again at the same picture. Predict what you think will happen next, and explain why you think so."
+        },
+        {
+          "id": "S5",
+          "section": "speaking",
+          "type": "speakingTask",
+          "part": 5,
+          "partTitle": "Comparing and Persuading",
+          "prepSeconds": 60,
+          "responseSeconds": 60,
+          "prompt": "You are choosing equipment for a new business. Compare two options: a higher-cost model with advanced features, or a lower-cost model that covers the basics. Choose one and persuade your business partner to agree with you."
+        },
+        {
+          "id": "S6",
+          "section": "speaking",
+          "type": "speakingTask",
+          "part": 6,
+          "partTitle": "Dealing with a Difficult Situation",
+          "prepSeconds": 60,
+          "responseSeconds": 60,
+          "prompt": "You promised to help a colleague move on Saturday, but your manager has now scheduled an important deadline for the same day. You can speak to either your colleague or your manager. Choose one, explain the situation, and propose a solution."
+        },
+        {
+          "id": "S7",
+          "section": "speaking",
+          "type": "speakingTask",
+          "part": 7,
+          "partTitle": "Expressing Opinions",
+          "prepSeconds": 30,
+          "responseSeconds": 90,
+          "prompt": "Some people believe companies should be required to allow employees to work remotely at least part of the week. Do you agree or disagree? Give reasons and examples to support your opinion."
+        },
+        {
+          "id": "S8",
+          "section": "speaking",
+          "type": "speakingTask",
+          "part": 8,
+          "partTitle": "Describing an Unusual Situation",
+          "prepSeconds": 30,
+          "responseSeconds": 60,
+          "imageAsset": "assets/images/speaking_unusual.png",
+          "prompt": "Look at the picture. Something unusual is happening. Call a friend and describe what you see, including why it is surprising or out of the ordinary."
+        }
+      ]
+    }
+  ]
+}
